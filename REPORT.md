@@ -3,6 +3,15 @@
 Date: 24 November 2026
 Status: Phase 1 (Discovery) and Phase 2 (Selection) done. Phase 3 (Validation) and Phase 4 (Build) started.
 
+> **Corrections (24 Nov 2026, Report #2):** three claims below were overstated and one was missing.
+> - The 45% figure means "used AI for a local recommendation in the past 12 months".
+> - In the same BrightLocal survey, 65% of owners say they're already working on AI visibility.
+> - The call-answering statistics are unverified and have been removed from sales material.
+> - Google's map pack, not AI Overviews, still appears on most "[service] [city]" searches.
+> - The audit tool no longer relies on Claude alone.
+>
+> See `docs/market-verification.md`, `docs/technical-verification.md` and `docs/offer.md`. Where they conflict with this report, they win.
+
 > Nothing here is a guaranteed result. Every revenue figure below is a target built on stated assumptions. **Revenue is not profit, profit is not cash in hand, and cash in hand is not personal wealth.** We have $0 in revenue today.
 
 ---

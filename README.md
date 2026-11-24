@@ -1,23 +1,28 @@
 # $1M Mission: Business Operating Repo
 
-Working business: **Findable** (working name), a productized "Get Found by AI" service for US home-service businesses.
+**Current objective: the first paying customer ($497 Fix Sprint).** Working name: Findable, a deliverable-based "get found by AI" service for US roofing and HVAC owner-operators.
 
 | Path | What it is |
 |---|---|
-| `REPORT.md` | Report #1: 10 opportunities, evidence, top 3, the chosen business, 30-day plan, decisions needed |
-| `docs/milestones.md` | $100 → $1M milestone model, with assumptions and expenses |
-| `docs/outreach.md` | Cold email sequence (draft, not sent) |
-| `docs/fiverr-gigs.md` | Fiverr gig copy (draft, not published) |
-| `docs/progress-log.md` | Running progress log (activity is not achievement) |
-| `tools/ai_visibility_audit/` | The audit engine that produces the free personalised report |
-| `site/index.html` | Landing page draft |
+| `REPORT.md` | Report #1: opportunity assessment (with corrections banner) |
+| `docs/first-customer-plan.md` | **Start here.** Shortest route to the first $497; spending requests |
+| `docs/offer.md` | Itemised Fix Sprint and monthly deliverables; price benchmarks |
+| `docs/technical-verification.md` | What the audit really measures, per engine; costs; false-result safeguards |
+| `docs/market-verification.md` | Every statistic traced to source; competitor map |
+| `docs/outreach.md` | Personalised outreach sequence (not sent) |
+| `docs/fiverr-gigs.md` | Fiverr gig copy (not published) |
+| `docs/milestones.md` | $100 → $1M model (targets, not forecasts) |
+| `docs/progress-log.md` | Running log |
+| `data/prospects.csv` | 20 US roofing/HVAC prospects from public websites (unverified) |
+| `tools/ai_visibility_audit/` | Audit engine, tests, report and draft generator |
+| `site/index.html` | Landing page draft (unpublished) |
 
-## Run the audit tool
+## Recovery
+Everything lives on GitHub: `okorie-cyber/symmetrical-barnacle`, branch `claude/million-dollar-business-1v2cul`.
 
 ```bash
-cd tools/ai_visibility_audit
-python3 audit.py --business "Acme Roofing" --domain acmeroofing.com \
-  --trade roofer --city "Dallas, TX" --engine mock --out report.html   # free test run, SAMPLE DATA
-pip install anthropic && export ANTHROPIC_API_KEY=...                 # real runs (about $1-2 per audit)
-python3 audit.py ... --engine claude --out report.html
+git clone https://github.com/okorie-cyber/symmetrical-barnacle.git
+cd symmetrical-barnacle && git checkout claude/million-dollar-business-1v2cul
 ```
+
+For an offline copy, `scripts/backup.sh` writes a single-file git bundle that restores the full history. The `evidence/` and `reports/` folders are committed deliberately: they are the proof behind every claim we make to a prospect. API keys are never stored in the repo.

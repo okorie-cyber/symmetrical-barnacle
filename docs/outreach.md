@@ -1,42 +1,59 @@
-# Outreach Drafts (NOT SENT, pending your approval)
+# Outreach: personalised-audit approach (NOTHING SENT, pending approval)
 
-Rules: personalise every message with the prospect's real audit. Never claim results we haven't produced. Include a physical/postal address and a one-line opt-out in every cold email (US CAN-SPAM). Target US businesses first. UK sole traders fall under PECR consent rules, so we contact UK limited companies only.
+## Principles
 
-## Email 1: first touch (day 0)
+1. **Every number in an email comes from that prospect's own evidence file.** `audit.py drafts` fills the numbers in; a person checks them against the report.
+2. **No links or attachments in the first email.** This protects deliverability. The report goes out only after a "yes".
+3. **Honest identity:** your real name. If asked, say plainly that you work remotely from Lagos, Nigeria. Never imply a US office.
+4. **Never claim guaranteed rankings or AI placement.** Never cite unverified statistics (see `market-verification.md`).
+5. **Legal:**
+   - US CAN-SPAM: a truthful subject line, a valid postal address and a working opt-out honoured within 10 business days
+   - Contact businesses only, at addresses they publish
+   - Skip anyone who opts out, permanently
+6. **Volume:** 10 to 20 hand-reviewed emails a day at most. No bulk tools.
 
-Subject: {{business}} isn't showing up when people ask ChatGPT for a {{trade}}
+## Personalisation fields (from the audit)
 
-Hi {{first_name}},
+| Field | Source |
+|---|---|
+| `{{named}} / {{answers}}` | Times the business was named out of total answers |
+| `{{top_rival}} / {{rival_count}}` | Most-named *verified* local competitor |
+| `{{best_question}}` | One question where a competitor was named and they weren't |
+| `{{gap_fix}}` | The single most obvious fix seen on their profile or site (e.g. no cost page, missing GBP services). **Checked by a person, not generated.** |
 
-I asked AI assistants 8 questions your customers ask, like "who's the best {{trade}} in {{city}}?". {{business}} was named in {{hits}} of 8 answers. {{top_competitor}} was named in {{competitor_hits}}.
+## Email 1: day 0 (template filled by `audit.py drafts`)
 
-I put the full results in a one-page report: the exact questions, who was recommended, and the 3 fixes most likely to change it. Want me to send it over? There's no cost.
+Subject: {{business}} and AI search in {{city}}
 
-{{sender_name}}
-{{brand}} · {{postal_address}}
-Not relevant? Reply "no" and I won't email again.
+Hi {{first_name or "there"}},
 
-## Email 2: follow-up (day 3)
+I asked AI assistants the questions homeowners ask, like "who is the best {{trade}} in {{city}}?", and checked {{answers}} answers. {{business}} was named in {{named}} of them. {{top_rival}} was named {{rival_count}} times.
 
-Subject: re: {{business}} and AI search
+I wrote up the results in a short report: the exact questions, who was recommended, and the three fixes most likely to change it. Would you like me to send it? There's no cost.
 
-Quick follow-up. Nearly half of consumers now ask AI tools for local recommendations (BrightLocal, 2026). The report shows where {{business}} stands. Shall I send it?
+{{your_name}}
+{{brand}}, {{postal_address}}
+If this isn't useful, reply "no" and I won't contact you again.
 
-## Email 3: value-first (day 7)
+## Email 2: day 3
+Subject: re: {{business}} and AI search in {{city}}
 
-Subject: the {{city}} {{trade}} AI is recommending
+Quick follow-up. One specific thing from your results: when asked "{{best_question}}", the AI named {{top_rival}} but not {{business}}. The report shows why that's likely. Should I send it?
 
-One finding from your audit: on cost questions ("how much does a new roof cost in {{city}}?"), AI cites businesses that publish local price ranges. {{business}}'s site doesn't have that page yet. It's usually the fastest fix. The report is ready whenever you want it.
+## Email 3: day 7
+Subject: one fix for {{business}}
 
-## Email 4: breakup (day 14)
+{{gap_fix}}. It's usually the quickest change, and you can do it yourself. The full report is ready if you want it.
 
+## Email 4: day 14
 Subject: closing the loop
 
-I'll stop here. If getting recommended by ChatGPT and Google's AI answers becomes a priority, reply any time and I'll re-run the audit with fresh results.
+I'll stop here. If AI search becomes a priority, reply any time and I'll re-run your questions with fresh results.
 
-## Reply → close script
+## After a "yes"
+1. Send the HTML/PDF report, plus an optional 3-minute Loom walkthrough.
+2. Offer: "I can do everything in the report's fix list for a fixed $497: half to start, half when it's delivered. Each deliverable is listed with how you'll verify it. Anything not delivered within 14 days is refunded. Then I re-run these same questions after 30 days so you can see what changed."
+3. Attach `offer.md` as a one-page PDF.
 
-1. Send the report (PDF/HTML) plus a 3-minute Loom walkthrough.
-2. Offer: "I can make the fixes in the report this week for a fixed $497, then re-run the audit in 30 days so you can see what changed."
-3. Payment: invoice through the USD account (Grey/Raenest). PayPal link as a backup.
-4. After the re-audit, offer the $297/mo retainer.
+## Prospects without a public email (#3, #8, #11, #12, #14, #16, #17)
+Use their website contact form with the same text, or skip. Don't scrape for hidden addresses.

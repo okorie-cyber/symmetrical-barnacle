@@ -11,3 +11,24 @@
 7. **Opportunities:** a vertical micro-SaaS (quote follow-up for one trade) once we have 30+ trade clients.
 8. **Next actions:** run the first 50 real audits as soon as the key is approved; build the prospect list; draft Notion CRM.
 9. **Approvals needed:** see "Decisions I need from you" in `REPORT.md`.
+
+## 2026-11-24: Session 2 (verification before spending)
+
+1. **Researched:** live API pricing for OpenAI, Perplexity, Gemini, SerpApi and DataForSEO; the original studies behind every statistic; 20+ competitors; GBP and local SEO pricing; average roof and AC job values.
+2. **Discovered:**
+   - The v1 tool (Claude only) measured a proxy, not real visibility.
+   - Google AI Mode can be *observed* via SerpApi (free tier). ChatGPT and Perplexity are best observed by manual capture.
+   - Three of our statistics were overstated.
+   - Map packs still dominate Google local searches.
+   - The tracking-software market is established and cheap; done-for-you for trades is fragmented, from $249 to $4,000 a month.
+3. **Built:**
+   - Audit tool v2: multi-engine, observed/proxy labels, 3-run variance, domain-first matching, generic-name guard, verified vs unverified competitors, evidence JSON, per-prospect reports, an evidence-only drafts generator, and 7 passing tests
+   - A 20-business prospect list
+   - Offer, verification, outreach and first-customer docs
+   - A backup script
+4. **Completed:** Phase 3 desk validation.
+5. **Business performance:** $0 revenue, 0 customers, 0 real audits, 0 emails sent.
+6. **Problems:** no free API keys yet; live adapters untested; prospects not yet GBP-verified.
+7. **Opportunities:** Fiverr gig as an inbound side channel; owners' overconfidence (65% "working on it") as the sales angle.
+8. **Next actions:** verify prospects' Google profiles; run the free engines; review 20 reports; submit drafts for approval.
+9. **Approvals needed:** see the reply to the user / `docs/first-customer-plan.md`.
