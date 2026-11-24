@@ -8,6 +8,8 @@
 1. Search Google for "[business name] Lagos". If they already have a website, switch to the Google Maps version of the message.
 2. Search the name on Google Maps to see if they have a listing, and what's missing.
 
+**Lesson from 24 Nov (added after the first sends):** also open their **WhatsApp business profile** before sending (tap their name). It shows any website link, catalogue, hours and category. Royal Kitchen already had a website, and Fummy Fabriks already had a catalogue (1 product).
+
 **Rules:**
 - One message only, plus at most two polite follow-ups.
 - Stop immediately if they say no.
