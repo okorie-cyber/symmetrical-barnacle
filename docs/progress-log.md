@@ -32,3 +32,22 @@
 7. **Opportunities:** Fiverr gig as an inbound side channel; owners' overconfidence (65% "working on it") as the sales angle.
 8. **Next actions:** verify prospects' Google profiles; run the free engines; review 20 reports; submit drafts for approval.
 9. **Approvals needed:** see the reply to the user / `docs/first-customer-plan.md`.
+
+## 2026-11-24: Session 3 (zero-startup-capital pivot)
+
+1. **Researched:** Fiverr and Upwork fee structures (Fiverr is free; Upwork proposals cost Connects); free hosting terms (Cloudflare Pages and Netlify allow commercial use; Vercel Hobby and GitHub Pages don't for business sites); website and GBP pricing in the US and Nigeria.
+2. **Discovered:** the fastest zero-capital cash is the local Lagos market (bank transfer, ₦0 fees, 50% deposits). Fiverr is the best free international channel, but it's slow for new sellers.
+3. **Built:**
+   - The 15-service assessment
+   - Pricing
+   - 2 Fiverr gigs and an Upwork profile with 3 proposals
+   - Local and international outreach scripts
+   - Delivery SOPs
+   - 2 portfolio concept sites plus the studio landing page (mobile-tested)
+   - A Notion pipeline (private) with the 20 US prospects
+4. **Completed:** the Phase 1 re-assessment under the zero-capital rule.
+5. **Business performance:** $0 revenue, 0 customers, 0 messages sent, ₦0 spent.
+6. **Problems:** nothing can be sent or published without approval; your contact details are needed in the assets.
+7. **Opportunities:** GBP setup and WhatsApp Business setup are door-openers that can each close in days.
+8. **Next actions:** approval → day-1 messages → Fiverr gigs live → 4 conversations a day.
+9. **Approvals needed:** see the chat reply.

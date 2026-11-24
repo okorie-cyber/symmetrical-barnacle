@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ewà Kitchen: Home-style Lagos Catering (Concept)</title>
+<meta name="description" content="Concept website for a fictional Lagos caterer: menu, prices, WhatsApp ordering and location.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Ewà Kitchen (concept)","servesCuisine":"Nigerian","address":{"@type":"PostalAddress","addressLocality":"Yaba","addressRegion":"Lagos","addressCountry":"NG"},"priceRange":"₦₦"}</script>
+<style>
+:root{--bg:#fffaf3;--fg:#2a1d14;--muted:#6f5f52;--card:#fff;--line:#eadfcf;--brand:#c2410c;--brand-fg:#fff;--leaf:#3f6212}
+@media (prefers-color-scheme:dark){:root{--bg:#17120e;--fg:#f5ece2;--muted:#bba999;--card:#211a14;--line:#3a2e24;--brand:#fb923c;--brand-fg:#1a120c;--leaf:#a3e635}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,sans-serif}
+.concept{background:var(--leaf);color:var(--bg);text-align:center;font-size:13px;padding:6px 16px}
+.wrap{max-width:1040px;margin:auto;padding:0 16px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font:700 24px Fraunces,serif;color:var(--brand)}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-fg);padding:13px 20px;border-radius:999px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;color:var(--fg);border:1.5px solid var(--line)}
+.hero{display:grid;gap:28px;grid-template-columns:1.1fr .9fr;align-items:center;padding:36px 0 56px}
+.hero h1{font:700 clamp(34px,6vw,56px)/1.05 Fraunces,serif;margin:0 0 14px}
+.hero p{color:var(--muted);font-size:18px;margin:0 0 22px}
+.plate{aspect-ratio:1;width:100%;max-width:380px;justify-self:center;border-radius:32px;background:radial-gradient(circle at 50% 50%,#f59e0b 0 14%,#b45309 15% 22%,#fef3c7 23% 33%,#c2410c 34% 40%,transparent 41%),var(--card);border:1px solid var(--line)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+h2{font:700 32px Fraunces,serif;margin:0 0 18px}
+section{padding:44px 0;border-top:1px solid var(--line)}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.item b{display:flex;justify-content:space-between;gap:8px}.item span{color:var(--brand);white-space:nowrap}
+.item p{color:var(--muted);margin:6px 0 0;font-size:15px}
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+blockquote{margin:0;background:var(--card);border-left:4px solid var(--brand);padding:16px;border-radius:12px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;counter-reset:s}
+.steps div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.steps div::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--brand);color:var(--brand-fg);font-weight:700;margin-bottom:8px}
+footer{padding:36px 0;color:var(--muted);font-size:14px}
+.float{position:fixed;right:16px;bottom:16px;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.plate{max-width:320px}}
+</style>
+</head>
+<body>
+<div class="concept">Concept design by Findable Studio. Ewà Kitchen is a fictional business, shown as a portfolio sample.</div>
+<div class="wrap">
+<nav><span class="logo">Ewà Kitchen</span><a class="btn ghost" href="#menu">See menu</a></nav>
+<div class="hero">
+<div>
+<h1>Home-style Nigerian food, delivered across Yaba &amp; Surulere.</h1>
+<p>Party trays, office lunches and weekly meal prep, cooked fresh every morning. Order on WhatsApp in under a minute.</p>
+<div class="row"><a class="btn" href="#order">Order on WhatsApp</a><a class="btn ghost" href="#menu">View prices</a></div>
+</div>
+<div class="plate" role="img" aria-label="Illustration of a plate of jollof rice"></div>
+</div>
+
+<section id="menu"><h2>Menu &amp; prices</h2>
+<div class="menu">
+<div class="item"><b>Smoky party jollof <span>from ₦4,500</span></b><p>With fried plantain and grilled chicken. Party trays from 10 portions.</p></div>
+<div class="item"><b>Efo riro &amp; pounded yam <span>₦5,000</span></b><p>Assorted meat, ponmo and stockfish.</p></div>
+<div class="item"><b>Office lunch box <span>₦3,500</span></b><p>Rice or swallow, protein, drink. Minimum 8 boxes, delivered by 12:30.</p></div>
+<div class="item"><b>Weekly meal prep <span>₦32,000</span></b><p>10 meals for the week, labelled and chilled. Delivered on Sundays.</p></div>
+</div></section>
+
+<section><h2>How ordering works</h2>
+<div class="steps"><div>Tap "Order on WhatsApp" and tell us what you'd like.</div><div>We confirm the total and delivery time.</div><div>Pay by bank transfer.</div><div>Hot food at your door, on time.</div></div></section>
+
+<section><h2>What customers say</h2>
+<div class="quotes"><blockquote>"The party jollof finished before the cake came out." <br><small>Sample review, placeholder</small></blockquote>
+<blockquote>"Office lunches arrive before 12:30 every single time." <br><small>Sample review, placeholder</small></blockquote></div></section>
+
+<section id="order"><h2>Order or ask a question</h2>
+<p>Open Monday to Saturday, 8am to 7pm. Delivery across Yaba, Akoka, Surulere and Ebute Metta.</p>
+<div class="row"><a class="btn" href="#order">WhatsApp (demo link)</a><a class="btn ghost" href="#order">Call (demo)</a></div></section>
+<footer>© Ewà Kitchen (concept). Demo site; contact buttons are disabled.</footer>
+</div>
+<a class="btn float" href="#order">💬 Order</a>
+</body>
+</html>
