@@ -78,3 +78,13 @@ Pay to: {{bank}}, {{account name}}, {{account number}}
 - All client accounts are owned by the client.
 - Deadlines are missed only with notice and a new date agreed in writing.
 - Keep a copy of every deliverable and the client's written approval in their project folder (Google Drive free).
+
+## E. AI-assisted fast delivery (target: first preview within 24 hours of the deposit)
+1. **Intake by WhatsApp.** The client sends voice notes, photos and a price list. You forward the text and photos into our session; no forms needed.
+2. **Same-day draft.** I generate the site from the closest demo (food → Ewà, beauty → Kínní, services → Oakvale), replacing **every** placeholder, writing the copy and adding schema.
+3. **Your 20-minute check:** open it on your phone, tap every button, read every price aloud against the client's list.
+4. **Preview.** Deploy to the client's free Cloudflare Pages account during a short screen-share, or send screenshots plus a local preview until their account exists.
+5. **One consolidated revision round,** applied in the session within hours.
+6. **Quality never skipped:** real client content only, mobile test, links tested, a spelling pass, PageSpeed check.
+
+Typical time per Starter site: about 3 hours of your time, spread over 2 days.

@@ -51,3 +51,21 @@
 7. **Opportunities:** GBP setup and WhatsApp Business setup are door-openers that can each close in days.
 8. **Next actions:** approval → day-1 messages → Fiverr gigs live → 4 conversations a day.
 9. **Approvals needed:** see the chat reply.
+
+## 2026-11-24: Session 4 (from preparation to acquisition)
+
+1. **Researched:** 10 real Lagos businesses (Akoka, Yaba, Surulere, Ebute Metta, Gbagada) that show a phone or WhatsApp number but no visible website. Website status is unverified; check before sending. Also researched recurring care and GBP management prices in Nigeria and the US.
+2. **Discovered:** Nigerian care plans run ₦25k–₦75k/month; US GBP management $99–$400/month. Recurring income is realistic at ₦15k–₦50k/month per client.
+3. **Built:**
+   - Batch 1 of personalised outreach (10 drafts)
+   - The daily 75-minute routine
+   - Recurring plans (Care / Grow / Grow + WhatsApp)
+   - A salon demo, with the landing page now separating demos from client work
+   - The AI-assisted delivery SOP
+   - Notion tracking extended: an Activity database related to Leads, and deposit/payment/delivery/recurring fields; 10 Lagos leads added
+4. **Completed:** acquisition is ready, pending your approval.
+5. **Business performance:** $0 revenue, 0 messages sent, ₦0 spent.
+6. **Problems:** the drafts need your name and approval; website status per lead is unverified.
+7. **Opportunities:** Akoka/Yaba walk-ins near campus; WhatsApp catalogue (₦25k) as a quick win.
+8. **Next actions:** you approve batch 1 → send 4/day → log in Notion → I draft batch 2 from the leads you add.
+9. **Approvals needed:** batch 1 messages; whether to use the UNILAG line; name/WhatsApp for signatures.

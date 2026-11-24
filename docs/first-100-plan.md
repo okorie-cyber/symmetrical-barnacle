@@ -34,6 +34,7 @@ Four or five of these also reach ₦160k.
 ## What we track (in Notion)
 Conversations started, replies, quotes sent, deposits, revenue received (not quoted), hours spent.
 
-## Reinvestment rule (agreed in advance)
-- **First ₦160k:** keep 70% for yourself; the other 30% funds a business domain (~₦15k/yr for .com.ng) and a small reserve.
-- **After $500:** consider a $20 OpenAI API budget or SerpApi Starter, only if the AI visibility audit has paying demand.
+## Reinvestment rule (updated per your instruction)
+- **Zero startup capital** until revenue is consistent. Revenue first covers your own needs.
+- **No automatic purchases.** No domain or subscription is bought just because money came in. Each expense must name the real opportunity it serves, the free alternative we tried, and the result we expect. You approve each one.
+- **Clients always pay for their own** domains, hosting and third-party tools, directly to the provider.

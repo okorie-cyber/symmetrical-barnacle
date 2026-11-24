@@ -19,9 +19,9 @@ Payment rules for every service:
 | **Business: 3 pages** | ₦150,000 | $180 / $350 | Starter plus About and Services/Menu pages; contact form (free tier); Google Analytics or a free analytics tool; 2 revision rounds | 7 days |
 | **Pro: 5 pages** | ₦250,000 | $350 / $600 | Business plus 2 more pages (e.g. Gallery, FAQ/Booking); copywriting from a 20-minute interview; 3 revision rounds; a 30-minute handover call | 10 days |
 | **Add-on: Google Business Profile** (see secondary) | ₦25,000 | $40 | — | +2 days |
-| **Care plan** (optional, monthly) | ₦15,000/mo | $30/mo | Up to 30 minutes of edits a month, uptime check, monthly backup | Ongoing |
+| **Recurring plans** | from ₦15,000/mo | from $30/mo | Care / Grow / Grow + WhatsApp (see `recurring-plans.md`). **The first month of Care is included with every website.** | Ongoing |
 
-**The client pays separately (third parties, not us):** domain name (₦1,500–₦15,000/yr for .ng or .com.ng; about $10–$15 for .com). Any paid plugin or tool they choose.
+**The client pays third parties directly, never through us:** domain name (₦1,500–₦15,000/yr for .ng or .com.ng; about $10–$15 for .com). Any paid plugin or tool they choose.
 
 **Not included:** e-commerce checkout, logins or user accounts, content in languages we can't check, logo design (Canva-level only).
 
