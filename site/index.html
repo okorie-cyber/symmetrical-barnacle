@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Findable: Get Recommended by AI</title>
+<meta name="description" content="Find out whether ChatGPT, Perplexity and Google AI recommend your business, and fix it.">
+<style>
+:root{--bg:#fbfbfd;--fg:#12151c;--muted:#596070;--card:#fff;--line:#e2e5eb;--accent:#2647d9;--accent-fg:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1116;--fg:#eceef2;--muted:#a0a6b2;--card:#171a21;--line:#2a2e37;--accent:#8ea2ff;--accent-fg:#0f1116}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{max-width:980px;margin:auto;padding:0 16px}
+header{padding:20px 0;font-weight:700}
+.hero{padding:48px 0 32px}.hero h1{font-size:clamp(32px,6vw,54px);line-height:1.1;margin:0 0 16px}
+.hero p{font-size:20px;color:var(--muted);max-width:640px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-fg);padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:40px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card b{font-size:34px;display:block;color:var(--accent)}
+.card small{color:var(--muted)}
+h2{font-size:28px;margin:48px 0 12px}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.price{font-size:30px;font-weight:700}
+form{display:grid;gap:10px;max-width:520px}
+input{padding:12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit}
+button{font:inherit;border:0;cursor:pointer}
+footer{color:var(--muted);padding:48px 0;font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>Findable</header>
+<section class="hero">
+<h1>When customers ask AI for a local pro, does it name you?</h1>
+<p>We ask ChatGPT, Perplexity and Google's AI the questions your customers ask. Then we show you who gets recommended, and fix what keeps you out.</p>
+<a class="btn" href="#audit">Get your free AI visibility audit</a>
+</section>
+
+<section class="stats">
+<div class="card"><b>45%</b>of consumers now use AI tools to find local businesses.<br><small>BrightLocal, 2026</small></div>
+<div class="card"><b>1 in 5</b>local businesses showed up in AI answers about their own trade and city.<br><small>Mandalytics study of 2,862 businesses, 2026</small></div>
+<div class="card"><b>68%</b>of local markets had a new #1 AI recommendation within about four months. The spot is still winnable.<br><small>MentionedOn, 881 markets, 2026</small></div>
+</section>
+
+<h2>How it works</h2>
+<div class="plans">
+<div class="card"><h3>1. Audit</h3>We test real customer questions across AI engines and show exactly who is named instead of you.</div>
+<div class="card"><h3>2. Fix</h3>Google Business Profile, local cost pages, directory consistency and a review engine: the signals AI answers lean on.</div>
+<div class="card"><h3>3. Track</h3>We re-measure every month and report the outcomes that matter: calls, bookings, reviews.</div>
+</div>
+
+<h2>Pricing</h2>
+<div class="plans">
+<div class="card"><h3>Audit</h3><div class="price">Free</div>8 customer questions, competitor list, top 3 fixes.</div>
+<div class="card"><h3>Fix Sprint</h3><div class="price">$497</div>One-time. We implement the fixes, then re-audit after 30 days.</div>
+<div class="card"><h3>Found &amp; Booked</h3><div class="price">$297/mo</div>Monthly re-audit, 1 new local page, review automation, competitor watch. Cancel anytime.</div>
+</div>
+<p><small>AI answers change constantly, so no one can honestly guarantee placement. We fix what is known to matter and show you the before and after.</small></p>
+
+<h2 id="audit">Request your free audit</h2>
+<!-- TODO before launch: point action at a form backend (e.g. Zapier webhook) once approved. -->
+<form onsubmit="event.preventDefault();this.querySelector('button').textContent='Thanks! We will email your audit.';">
+<input required name="business" placeholder="Business name">
+<input required name="website" placeholder="Website">
+<input required name="trade" placeholder="Trade (e.g. roofer, HVAC)">
+<input required name="city" placeholder="City, State">
+<input required type="email" name="email" placeholder="Email for the report">
+<button class="btn" type="submit">Send my audit</button>
+</form>
+<footer>Findable (working name) · Draft page, not yet published.</footer>
+</div>
+</body>
+</html>
