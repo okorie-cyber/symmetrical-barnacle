@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sample Chambers &amp; Partners, Legal Practitioners (Demo)</title>
+<meta name="description" content="Demonstration website for a fictional Lagos chambers: practice areas, lawyer profiles, office location and an enquiry form.">
+<style>
+:root{--bg:#f8f7f4;--fg:#1d2430;--muted:#5d6676;--card:#fff;--line:#e2dfd6;--brand:#1f3a5f;--brand-fg:#fff;--gold:#8a6d2b}
+@media (prefers-color-scheme:dark){:root{--bg:#11151c;--fg:#e8ebf0;--muted:#a3abb8;--card:#181e27;--line:#2a3340;--brand:#8fb3e0;--brand-fg:#11151c;--gold:#d9b95c}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+.demo{background:var(--gold);color:#fff;text-align:center;font-size:13px;padding:6px 16px}
+.wrap{max-width:980px;margin:auto;padding:0 16px}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:12px;flex-wrap:wrap}
+.name{font-weight:700;font-size:20px;color:var(--brand)}
+nav a{color:var(--fg);text-decoration:none;margin-left:16px;font-size:15px}
+.hero{padding:44px 0 36px}.hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 12px;color:var(--brand)}
+.hero p{color:var(--muted);font-size:18px;max-width:640px;margin:0 0 18px}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-fg);padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;margin:0 0 16px;color:var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h3{margin:0 0 6px;font-size:18px}.card small{color:var(--muted)}
+form{display:grid;gap:10px;max-width:560px}
+label{font-size:14px;color:var(--muted)}
+input,select,textarea{width:100%;padding:11px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
+.notice{background:var(--card);border-left:4px solid var(--gold);padding:12px 14px;font-size:14px;color:var(--muted);border-radius:6px}
+.disclaimer{font-size:13px;color:var(--muted)}
+footer{padding:32px 0;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="demo">Demonstration website for a fictional firm. Not a real law practice. Names, addresses and contacts are placeholders.</div>
+<div class="wrap">
+<header>
+  <div class="name">Sample Chambers &amp; Partners</div>
+  <nav><a href="#practice">Practice areas</a><a href="#team">Our lawyers</a><a href="#visit">Visit us</a><a href="#enquire">Enquire</a></nav>
+</header>
+
+<section class="hero">
+  <h1>Legal practitioners in Lagos, for individuals and businesses.</h1>
+  <p>We practise in corporate, property, family and litigation matters. Use the enquiry form below to tell us briefly what you need. A lawyer will reply to arrange an initial discussion.</p>
+  <a class="btn" href="#enquire">Make an enquiry</a>
+</section>
+
+<section id="practice">
+  <h2>Practice areas</h2>
+  <div class="grid">
+    <div class="card"><h3>Corporate and commercial</h3><p>Company formation, contracts, governance and company secretarial work.</p></div>
+    <div class="card"><h3>Property and conveyancing</h3><p>Sale, purchase and lease documentation, and title searches.</p></div>
+    <div class="card"><h3>Family and succession</h3><p>Marriage, child-related matters, wills and administration of estates.</p></div>
+    <div class="card"><h3>Litigation and dispute resolution</h3><p>Civil proceedings, negotiation and alternative dispute resolution.</p></div>
+  </div>
+</section>
+
+<section id="team">
+  <h2>Our lawyers</h2>
+  <div class="grid">
+    <div class="card"><h3>[Name], Principal Partner</h3><small>Called to the Nigerian Bar: [year]</small><p>Areas: corporate and commercial, property.</p></div>
+    <div class="card"><h3>[Name], Associate</h3><small>Called to the Nigerian Bar: [year]</small><p>Areas: family and succession, litigation.</p></div>
+  </div>
+  <p class="disclaimer">Profiles show qualifications, year of call and areas of practice only.</p>
+</section>
+
+<section id="visit">
+  <h2>Visit us</h2>
+  <div class="grid">
+    <div class="card"><h3>Office</h3><p>[Street address], [area], Lagos, Nigeria</p><p>Mon–Fri, 8:30am–5:00pm</p></div>
+    <div class="card"><h3>Contact</h3><p>Phone: [number]</p><p>Email: [email]</p></div>
+  </div>
+  <div class="card" style="margin-top:14px;text-align:center;color:var(--muted)">[Map of the office location]</div>
+</section>
+
+<section id="enquire">
+  <h2>Make an enquiry</h2>
+  <div class="notice">Please do not send confidential documents or sensitive personal details through this form. A lawyer-client relationship is not created by submitting an enquiry. Documents are shared only after we agree to act for you.</div>
+  <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Demo: nothing was sent';">
+    <label>Full name<input required placeholder="Your name"></label>
+    <label>Email<input required type="email" placeholder="you@example.com"></label>
+    <label>Phone<input placeholder="Phone number"></label>
+    <label>Area of legal need
+      <select><option>Corporate and commercial</option><option>Property and conveyancing</option><option>Family and succession</option><option>Litigation and dispute resolution</option><option>Not sure</option></select>
+    </label>
+    <label>Brief description (no confidential details)<textarea rows="4" placeholder="A short summary of what you need"></textarea></label>
+    <button class="btn" type="submit">Send enquiry</button>
+  </form>
+  <p class="disclaimer">The information on this website is general and is not legal advice. Please contact a lawyer for advice on your particular circumstances.</p>
+</section>
+
+<footer>© Sample Chambers &amp; Partners (demonstration). Demo site: the form does not send anything.</footer>
+</div>
+</body>
+</html>
